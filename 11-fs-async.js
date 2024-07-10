@@ -1,4 +1,4 @@
-//asynchronously....this is how its done.
+//asynchronously....this is how its done
 
 // import the necessary functions from the 'fs' module
 const { readFile, writeFile } = require('fs');
