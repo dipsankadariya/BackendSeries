@@ -16,7 +16,7 @@ console.log(filePath);
 const base = path.basename(filePath);
 console.log(base);
 
-// create an absolute path using path.resolve()
+// create an absolute path using path.resolve()....
 // __dirname is a global variable that represents the directory of the current module
 // path.resolve() resolves a sequence of paths or path segments into an absolute path
 const absolute = path.resolve(__dirname, 'content', 'subfolder', 'text.txt');
